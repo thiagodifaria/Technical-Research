@@ -22,11 +22,11 @@
 
 ## 🎯 What is Technical Research?
 
-Technical Research is an **educational project** focused on the comprehensive implementation and deep understanding of fundamental algorithms and data structures across **four programming languages** (cpp, Python, Java, Go). This project serves as a continuous learning journey to master computer science fundamentals.
+Technical Research is an **educational project** focused on the comprehensive implementation and deep understanding of fundamental algorithms and data structures across **four programming languages** (C++, Python, Java, Go). This project serves as a continuous learning journey to master computer science fundamentals.
 
 ### ⚡ Key Highlights
 
-- 🌍 **Multilingual Implementation** - Same algorithms implemented in cpp, Python, Java, and Go
+- 🌍 **Multilingual Implementation** - Same algorithms implemented in C++, Python, Java, and Go
 - 🔬 **94+ Algorithms** - From basic sorting to advanced mathematical algorithms
 - 📊 **12 Categories** - Complete coverage of CS fundamentals
 - 🧪 **Extensive Testing** - Comprehensive test suites for all implementations
@@ -60,7 +60,7 @@ tree -L 3
 
 ### Option 2: Test Specific Language
 ```bash
-# cpp Tests
+# C++ Tests
 cd cpp
 mkdir build && cd build
 cmake .. && make
@@ -113,7 +113,7 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 
 | Language | Sorting | Graphs | DP | Strings | Math | Overall |
 |----------|---------|--------|----|---------|----- |---------|
-| **cpp** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
+| **C++** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Python** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Java** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Go** | ✅ 5/10 | ✅ 8/12 | ✅ 6/11 | ✅ 3/11 | ✅ 6/19 | **28/94** |
@@ -123,7 +123,7 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 ## 🧪 Testing Overview
 
 ### Test Coverage by Language
-- **cpp**: Google Test framework with comprehensive edge cases
+- **C++**: Google Test framework with comprehensive edge cases
 - **Python**: Pytest with parametrized testing and fixtures
 - **Java**: JUnit 5 with extensive assertion coverage
 - **Go**: Native testing package with table-driven tests
@@ -169,7 +169,7 @@ This project serves as a **continuous learning platform** to:
 ## 🔧 Development Environment
 
 ### Prerequisites by Language
-- **cpp**: CMake 3.15+, GCC/Clang with cpp17 support
+- **C++**: CMake 3.15+, GCC/Clang with C++17 support
 - **Python**: Python 3.10+, pytest
 - **Java**: JDK 11+, Maven 3.6+
 - **Go**: Go 1.19+

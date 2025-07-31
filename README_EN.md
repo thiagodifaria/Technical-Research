@@ -1,10 +1,10 @@
 # Technical Research - Multilingual Algorithm and Data Structure Implementation
 
-Educational project for comprehensive implementation and deep study of fundamental algorithms and data structures using four programming languages (cpp, Python, Java, Go). This project offers a complete solution for computer science learning, including from-scratch implementations, complexity analysis, extensive testing, and programming paradigm comparison.
+Educational project for comprehensive implementation and deep study of fundamental algorithms and data structures using four programming languages (C++, Python, Java, Go). This project offers a complete solution for computer science learning, including from-scratch implementations, complexity analysis, extensive testing, and programming paradigm comparison.
 
 ## 🎯 Features
 
-- ✅ **Multilingual implementation**: Same algorithms in cpp, Python, Java, and Go
+- ✅ **Multilingual implementation**: Same algorithms in C++, Python, Java, and Go
 - ✅ **94+ implemented algorithms**: Complete coverage of CS fundamentals
 - ✅ **12 comprehensive categories**: From basic sorting to computational geometry
 - ✅ **From-scratch implementations**: No external library dependencies
@@ -19,7 +19,7 @@ Modular architecture with clear separation by language and category:
 
 ```
 technical-research/
-├── cpp/               # Modern cpp17 implementations
+├── cpp/               # Modern C++17 implementations
 ├── python/            # Python 3.10+ implementations with type hints
 ├── java/              # Java 11+ implementations with Maven
 ├── go/                # Idiomatic Go 1.19+ implementations
@@ -29,19 +29,19 @@ technical-research/
 ## 🔧 Technology Stack
 
 ### Programming Languages
-- **cpp17**: Modern features, templates, smart pointers
+- **C++17**: Modern features, templates, smart pointers
 - **Python 3.10+**: Type hints, dataclasses, match statements
 - **Java 11+**: Streams, var keyword, modularization
 - **Go 1.19+**: Generics, modules, native concurrency
 
 ### Testing Frameworks
-- **cpp**: Google Test with parameterized tests
+- **C++**: Google Test with parameterized tests
 - **Python**: Pytest with fixtures and parameterization
 - **Java**: JUnit 5 with extensive assertions
 - **Go**: Native testing package with table-driven tests
 
 ### Build Tools
-- **cpp**: CMake 3.15+ with professional configuration
+- **C++**: CMake 3.15+ with professional configuration
 - **Python**: Pip with organized requirements.txt
 - **Java**: Maven 3.6+ with dependency management
 - **Go**: Go modules with semantic versioning
@@ -55,7 +55,7 @@ technical-research/
 ## 📋 Prerequisites
 
 ### Per Language
-- **cpp**: CMake 3.15+, GCC/Clang with cpp17 support, Google Test
+- **C++**: CMake 3.15+, GCC/Clang with C++17 support, Google Test
 - **Python**: Python 3.10+, pytest, type checkers (mypy)
 - **Java**: JDK 11+, Maven 3.6+, JUnit 5
 - **Go**: Go 1.19+, standard Go tools
@@ -80,7 +80,7 @@ tree -L 3
 
 ### Setup by Language
 
-#### cpp (High-Performance Implementation)
+#### C++ (High-Performance Implementation)
 
 ```bash
 cd cpp
@@ -187,7 +187,7 @@ CGO_ENABLED=0
 
 ### 1. Sorting Algorithms (10 algorithms)
 
-| Algorithm | cpp | Python | Java | Go | Complexity | Status |
+| Algorithm | C++ | Python | Java | Go | Complexity | Status |
 |-----------|-----|--------|------|----|------------|--------|
 | **Bubble Sort** | ✅ | ✅ | ✅ | ✅ | O(n²) | Complete |
 | **Quick Sort** | ✅ | ✅ | ✅ | ✅ | O(n log n) | Complete |
@@ -202,7 +202,7 @@ CGO_ENABLED=0
 
 ### 2. Graph Algorithms (12 algorithms)
 
-| Algorithm | cpp | Python | Java | Go | Primary Use |
+| Algorithm | C++ | Python | Java | Go | Primary Use |
 |-----------|-----|--------|------|----|-------------|
 | **Dijkstra** | ✅ | ✅ | ✅ | ✅ | Shortest path |
 | **Floyd-Warshall** | ✅ | ✅ | ✅ | ✅ | All pairs |
@@ -219,7 +219,7 @@ CGO_ENABLED=0
 
 ### 3. Dynamic Programming (11 problems)
 
-| Problem | cpp | Python | Java | Go | Application |
+| Problem | C++ | Python | Java | Go | Application |
 |---------|-----|--------|------|----|-------------|
 | **Fibonacci** | ✅ | ✅ | ✅ | ✅ | Sequences |
 | **0/1 Knapsack** | ✅ | ✅ | ✅ | ✅ | Optimization |
@@ -235,7 +235,7 @@ CGO_ENABLED=0
 
 ### 4. Data Structures (15 structures)
 
-| Structure | cpp | Python | Java | Go | Complexity |
+| Structure | C++ | Python | Java | Go | Complexity |
 |-----------|-----|--------|------|----|------------|
 | **Linked List** | ✅ | ✅ | ✅ | ✅ | O(1) insertion |
 | **Stack** | ✅ | ✅ | ✅ | ⏳ | O(1) operations |
@@ -257,7 +257,7 @@ CGO_ENABLED=0
 
 ### Typical Benchmarks (1M elements)
 
-| Algorithm | cpp | Python | Java | Go | Optimization |
+| Algorithm | C++ | Python | Java | Go | Optimization |
 |-----------|-----|--------|------|----|--------------|
 | **Quick Sort** | 85ms | 245ms | 125ms | 95ms | Cache-friendly |
 | **Merge Sort** | 92ms | 280ms | 140ms | 105ms | Stable |
@@ -267,7 +267,7 @@ CGO_ENABLED=0
 
 ### Memory Analysis
 
-- **cpp**: Manual control with RAII, zero overhead
+- **C++**: Manual control with RAII, zero overhead
 - **Python**: Automatic garbage collection, object overhead
 - **Java**: Generational GC, boxing overhead
 - **Go**: Concurrent GC, optimized structures
@@ -313,7 +313,7 @@ cd go && ./run_go_tests.sh
 
 #### Specific Tests
 ```bash
-# cpp - Specific category
+# C++ - Specific category
 cd cpp/build
 ./tests/algoritmos_ordenacao_tests
 ./tests/estruturas_dados_tests
@@ -363,7 +363,7 @@ go test ./estruturas_dados/ -bench=.
 
 ### Progress by Language
 
-- **cpp**: 94/94 algorithms implemented (100%)
+- **C++**: 94/94 algorithms implemented (100%)
 - **Python**: 94/94 algorithms implemented (100%)
 - **Java**: 94/94 algorithms implemented (100%)
 - **Go**: 28/94 algorithms implemented (30%)
@@ -386,7 +386,7 @@ go test ./estruturas_dados/ -bench=.
 
 ### Standards by Language
 
-- **cpp**: Modern cpp17, RAII, const-correctness
+- **C++**: Modern C++17, RAII, const-correctness
 - **Python**: PEP 8, type hints, docstrings
 - **Java**: Oracle code conventions, JavaDoc
 - **Go**: Effective Go, gofmt, go vet
