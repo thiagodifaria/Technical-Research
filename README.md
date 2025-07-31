@@ -4,7 +4,7 @@
 
 **Advanced Cross-Language Implementation of Fundamental Algorithms and Data Structures**
 
-[![C++](https://img.shields.io/badge/C++-17+-00599C?style=flat&logo=cplusplus&logoColor=white)](https://isocpp.org)
+[![cpp](https://img.shields.io/badge/cpp-17+-00599C?style=flat&logo=cplusplus&logoColor=white)](https://isocpp.org)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776ab?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://openjdk.org)
 [![Go](https://img.shields.io/badge/Go-1.19+-00ADD8?style=flat&logo=go&logoColor=white)](https://golang.org)
@@ -22,11 +22,11 @@
 
 ## 🎯 What is Technical Research?
 
-Technical Research is an **educational project** focused on the comprehensive implementation and deep understanding of fundamental algorithms and data structures across **four programming languages** (C++, Python, Java, Go). This project serves as a continuous learning journey to master computer science fundamentals.
+Technical Research is an **educational project** focused on the comprehensive implementation and deep understanding of fundamental algorithms and data structures across **four programming languages** (cpp, Python, Java, Go). This project serves as a continuous learning journey to master computer science fundamentals.
 
 ### ⚡ Key Highlights
 
-- 🌍 **Multilingual Implementation** - Same algorithms implemented in C++, Python, Java, and Go
+- 🌍 **Multilingual Implementation** - Same algorithms implemented in cpp, Python, Java, and Go
 - 🔬 **94+ Algorithms** - From basic sorting to advanced mathematical algorithms
 - 📊 **12 Categories** - Complete coverage of CS fundamentals
 - 🧪 **Extensive Testing** - Comprehensive test suites for all implementations
@@ -60,8 +60,8 @@ tree -L 3
 
 ### Option 2: Test Specific Language
 ```bash
-# C++ Tests
-cd c++
+# cpp Tests
+cd cpp
 mkdir build && cd build
 cmake .. && make
 ./tests/fibonacci_pd_test
@@ -82,7 +82,7 @@ go test ./algoritmos_ordenacao/
 ### 🔥 Test It Now!
 ```bash
 # Test the same algorithm across all languages
-cd c++/build && ./tests/dijkstra_test
+cd cpp/build && ./tests/dijkstra_test
 cd ../../python && python -m pytest tests/algoritmos_grafos/test_dijkstra.py -v
 cd ../java && mvn test -Dtest=DijkstraTest
 cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
@@ -113,7 +113,7 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 
 | Language | Sorting | Graphs | DP | Strings | Math | Overall |
 |----------|---------|--------|----|---------|----- |---------|
-| **C++** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
+| **cpp** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Python** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Java** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
 | **Go** | ✅ 5/10 | ✅ 8/12 | ✅ 6/11 | ✅ 3/11 | ✅ 6/19 | **28/94** |
@@ -123,7 +123,7 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 ## 🧪 Testing Overview
 
 ### Test Coverage by Language
-- **C++**: Google Test framework with comprehensive edge cases
+- **cpp**: Google Test framework with comprehensive edge cases
 - **Python**: Pytest with parametrized testing and fixtures
 - **Java**: JUnit 5 with extensive assertion coverage
 - **Go**: Native testing package with table-driven tests
@@ -146,7 +146,7 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 ./run_all_tests.sh
 
 # Language-specific test execution
-cd c++ && ./run_cpp_tests.ps1
+cd cpp && ./run_cpp_tests.ps1
 cd python && ./run_python_tests.sh  
 cd java && ./run_java_tests.sh
 cd go && ./run_go_tests.sh
@@ -169,7 +169,7 @@ This project serves as a **continuous learning platform** to:
 ## 🔧 Development Environment
 
 ### Prerequisites by Language
-- **C++**: CMake 3.15+, GCC/Clang with C++17 support
+- **cpp**: CMake 3.15+, GCC/Clang with cpp17 support
 - **Python**: Python 3.10+, pytest
 - **Java**: JDK 11+, Maven 3.6+
 - **Go**: Go 1.19+

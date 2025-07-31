@@ -1,0 +1,1 @@
+package estruturas_padroes_comuns
