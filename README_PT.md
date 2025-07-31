@@ -189,69 +189,69 @@ CGO_ENABLED=0
 
 | Algoritmo | C++ | Python | Java | Go | Complexidade | Status |
 |-----------|-----|--------|------|----|-------------|--------|
-| **Bubble Sort** | ✅ | ✅ | ✅ | ✅ | O(n²) | Completo |
-| **Quick Sort** | ✅ | ✅ | ✅ | ✅ | O(n log n) | Completo |
-| **Merge Sort** | ✅ | ✅ | ✅ | ✅ | O(n log n) | Completo |
-| **Heap Sort** | ✅ | ✅ | ✅ | ✅ | O(n log n) | Completo |
-| **Insertion Sort** | ✅ | ✅ | ✅ | ✅ | O(n²) | Completo |
-| **Selection Sort** | ✅ | ✅ | ✅ | ⏳ | O(n²) | Em progresso |
-| **Counting Sort** | ✅ | ✅ | ✅ | ⏳ | O(n+k) | Em progresso |
-| **Radix Sort** | ✅ | ✅ | ✅ | ⏳ | O(d(n+k)) | Em progresso |
-| **Bucket Sort** | ✅ | ✅ | ✅ | ⏳ | O(n²) | Em progresso |
-| **Quick Select** | ✅ | ✅ | ✅ | ⏳ | O(n) médio | Em progresso |
+| **Bubble Sort** | 🚧 | ✅ | ✅ | ✅ | O(n²) | Parcial |
+| **Quick Sort** | 🚧 | ✅ | ✅ | ✅ | O(n log n) | Parcial |
+| **Merge Sort** | 🚧 | ✅ | ✅ | ✅ | O(n log n) | Parcial |
+| **Heap Sort** | 🚧 | ✅ | ✅ | ✅ | O(n log n) | Parcial |
+| **Insertion Sort** | 🚧 | ✅ | ✅ | ✅ | O(n²) | Parcial |
+| **Selection Sort** | 🚧 | 🚧 | 🚧 | 🚧 | O(n²) | Em progresso |
+| **Counting Sort** | 🚧 | 🚧 | 🚧 | 🚧 | O(n+k) | Em progresso |
+| **Radix Sort** | 🚧 | 🚧 | 🚧 | 🚧 | O(d(n+k)) | Em progresso |
+| **Bucket Sort** | 🚧 | 🚧 | 🚧 | 🚧 | O(n²) | Em progresso |
+| **Quick Select** | 🚧 | 🚧 | 🚧 | 🚧 | O(n) médio | Em progresso |
 
 ### 2. Algoritmos de Grafos (12 algoritmos)
 
 | Algoritmo | C++ | Python | Java | Go | Uso Principal |
 |-----------|-----|--------|------|----|---------------|
-| **Dijkstra** | ✅ | ✅ | ✅ | ✅ | Menor caminho |
-| **Floyd-Warshall** | ✅ | ✅ | ✅ | ✅ | Todos os pares |
-| **Prim** | ✅ | ✅ | ✅ | ✅ | Árvore geradora mínima |
-| **Kruskal** | ✅ | ✅ | ✅ | ✅ | Árvore geradora mínima |
-| **Bellman-Ford** | ✅ | ✅ | ✅ | ⏳ | Pesos negativos |
-| **Ordenação Topológica** | ✅ | ✅ | ✅ | ⏳ | DAGs |
-| **Componentes Fortemente Conexos** | ✅ | ✅ | ✅ | ⏳ | Análise de grafos |
-| **Detecção de Ciclos** | ✅ | ✅ | ✅ | ⏳ | Validação |
-| **Grafo Bipartido** | ✅ | ✅ | ✅ | ⏳ | Verificação |
-| **Fluxo Máximo** | ✅ | ✅ | ✅ | ⏳ | Redes |
-| **Emparelhamento Máximo** | ✅ | ✅ | ✅ | ⏳ | Otimização |
-| **Menor Ancestral Comum** | ✅ | ✅ | ✅ | ⏳ | Árvores |
+| **Dijkstra** | ✅ | 🚧 | 🚧 | 🚧 | Menor caminho |
+| **Floyd-Warshall** | ✅ | 🚧 | 🚧 | 🚧 | Todos os pares |
+| **Prim** | 🚧 | 🚧 | 🚧 | 🚧 | Árvore geradora mínima |
+| **Kruskal** | 🚧 | 🚧 | 🚧 | 🚧 | Árvore geradora mínima |
+| **Bellman-Ford** | 🚧 | 🚧 | 🚧 | 🚧 | Pesos negativos |
+| **Ordenação Topológica** | 🚧 | 🚧 | 🚧 | 🚧 | DAGs |
+| **Componentes Fortemente Conexos** | ✅ | 🚧 | 🚧 | 🚧 | Análise de grafos |
+| **Detecção de Ciclos** | 🚧 | 🚧 | 🚧 | 🚧 | Validação |
+| **Grafo Bipartido** | 🚧 | 🚧 | 🚧 | 🚧 | Verificação |
+| **Fluxo Máximo** | 🚧 | 🚧 | 🚧 | 🚧 | Redes |
+| **Emparelhamento Máximo** | 🚧 | 🚧 | 🚧 | 🚧 | Otimização |
+| **Menor Ancestral Comum** | 🚧 | 🚧 | 🚧 | 🚧 | Árvores |
 
 ### 3. Programação Dinâmica (11 problemas)
 
 | Problema | C++ | Python | Java | Go | Aplicação |
 |----------|-----|--------|------|----|-----------|
-| **Fibonacci** | ✅ | ✅ | ✅ | ✅ | Sequências |
-| **Mochila 0/1** | ✅ | ✅ | ✅ | ✅ | Otimização |
-| **Maior Subsequência Comum** | ✅ | ✅ | ✅ | ✅ | Strings |
-| **Distância de Edição** | ✅ | ✅ | ✅ | ✅ | Edição de texto |
-| **Problema do Troco** | ✅ | ✅ | ✅ | ✅ | Combinações |
-| **Maior Subsequência Crescente** | ✅ | ✅ | ✅ | ⏳ | Análise de dados |
-| **Multiplicação de Matrizes** | ✅ | ✅ | ✅ | ⏳ | Álgebra linear |
-| **Word Break** | ✅ | ✅ | ✅ | ⏳ | Processamento de texto |
-| **Corte de Hastes** | ✅ | ✅ | ✅ | ⏳ | Otimização |
-| **Subset Sum** | ✅ | ✅ | ✅ | ⏳ | Combinatória |
-| **Caixeiro Viajante** | ✅ | ✅ | ✅ | ⏳ | Otimização |
+| **Fibonacci** | ✅ | 🚧 | 🚧 | 🚧 | Sequências |
+| **Mochila 0/1** | ✅ | 🚧 | 🚧 | 🚧 | Otimização |
+| **Maior Subsequência Comum** | ✅ | 🚧 | 🚧 | 🚧 | Strings |
+| **Distância de Edição** | ✅ | 🚧 | 🚧 | 🚧 | Edição de texto |
+| **Problema do Troco** | 🚧 | 🚧 | 🚧 | 🚧 | Combinações |
+| **Maior Subsequência Crescente** | 🚧 | 🚧 | 🚧 | 🚧 | Análise de dados |
+| **Multiplicação de Matrizes** | 🚧 | 🚧 | 🚧 | 🚧 | Álgebra linear |
+| **Word Break** | 🚧 | 🚧 | 🚧 | 🚧 | Processamento de texto |
+| **Corte de Hastes** | 🚧 | 🚧 | 🚧 | 🚧 | Otimização |
+| **Subset Sum** | 🚧 | 🚧 | 🚧 | 🚧 | Combinatória |
+| **Caixeiro Viajante** | 🚧 | 🚧 | 🚧 | ✅ | Otimização |
 
 ### 4. Estruturas de Dados (15 estruturas)
 
 | Estrutura | C++ | Python | Java | Go | Complexidade |
 |-----------|-----|--------|------|----|-------------|
-| **Lista Encadeada** | ✅ | ✅ | ✅ | ✅ | O(1) inserção |
-| **Pilha** | ✅ | ✅ | ✅ | ⏳ | O(1) operações |
-| **Fila** | ✅ | ✅ | ✅ | ⏳ | O(1) operações |
-| **Tabela Hash** | ✅ | ✅ | ✅ | ✅ | O(1) médio |
-| **Árvore AVL** | ✅ | ✅ | ✅ | ✅ | O(log n) |
-| **Árvore Binária de Busca** | ✅ | ✅ | ✅ | ⏳ | O(log n) médio |
-| **Heap** | ✅ | ✅ | ✅ | ⏳ | O(log n) |
-| **Trie** | ✅ | ✅ | ✅ | ⏳ | O(m) |
-| **Segment Tree** | ✅ | ✅ | ✅ | ⏳ | O(log n) |
-| **Fenwick Tree** | ✅ | ✅ | ✅ | ⏳ | O(log n) |
-| **Disjoint Set Union** | ✅ | ✅ | ✅ | ⏳ | O(α(n)) |
-| **B-Tree** | ✅ | ✅ | ✅ | ✅ | O(log n) |
-| **Skip List** | ✅ | ✅ | ✅ | ✅ | O(log n) médio |
-| **k-d Tree** | ✅ | ✅ | ✅ | ✅ | O(log n) médio |
-| **LRU Cache** | ✅ | ✅ | ✅ | ✅ | O(1) |
+| **Lista Encadeada** | 🚧 | 🚧 | 🚧 | 🚧 | O(1) inserção |
+| **Pilha** | 🚧 | 🚧 | 🚧 | 🚧 | O(1) operações |
+| **Fila** | 🚧 | 🚧 | 🚧 | 🚧 | O(1) operações |
+| **Tabela Hash** | ✅ | 🚧 | 🚧 | 🚧 | O(1) médio |
+| **Árvore AVL** | ✅ | 🚧 | 🚧 | 🚧 | O(log n) |
+| **Árvore Binária de Busca** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) médio |
+| **Heap** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) |
+| **Trie** | 🚧 | 🚧 | 🚧 | 🚧 | O(m) |
+| **Segment Tree** | ✅ | 🚧 | 🚧 | 🚧 | O(log n) |
+| **Fenwick Tree** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) |
+| **Disjoint Set Union** | 🚧 | 🚧 | 🚧 | ✅ | O(α(n)) |
+| **B-Tree** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) |
+| **Skip List** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) médio |
+| **k-d Tree** | 🚧 | 🚧 | 🚧 | 🚧 | O(log n) médio |
+| **LRU Cache** | 🚧 | 🚧 | 🚧 | 🚧 | O(1) |
 
 ## 📊 Análise de Performance
 
@@ -363,10 +363,10 @@ go test ./estruturas_dados/ -bench=.
 
 ### Progresso por Linguagem
 
-- **C++**: 94/94 algoritmos implementados (100%)
-- **Python**: 94/94 algoritmos implementados (100%)
-- **Java**: 94/94 algoritmos implementados (100%)
-- **Go**: 28/94 algoritmos implementados (30%)
+- **C++**: 18/94 algoritmos implementados (19%)
+- **Python**: 8/94 algoritmos implementados (9%)
+- **Java**: 5/94 algoritmos implementados (5%)
+- **Go**: 12/94 algoritmos implementados (13%)
 
 ### Qualidade de Código
 

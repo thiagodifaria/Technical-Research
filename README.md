@@ -83,9 +83,9 @@ go test ./algoritmos_ordenacao/
 ```bash
 # Test the same algorithm across all languages
 cd cpp/build && ./tests/dijkstra_test
-cd ../../python && python -m pytest tests/algoritmos_grafos/test_dijkstra.py -v
-cd ../java && mvn test -Dtest=DijkstraTest
-cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
+cd ../../python && python -m pytest tests/algoritmos_ordenacao/test_quick_sort.py -v
+cd ../java && mvn test -Dtest=QuickSortTest
+cd ../go && go test ./algoritmos_ordenacao/ -run TestDijkstra
 ```
 
 ---
@@ -113,10 +113,10 @@ cd ../go && go test ./algoritmos_grafos/ -run TestDijkstra
 
 | Language | Sorting | Graphs | DP | Strings | Math | Overall |
 |----------|---------|--------|----|---------|----- |---------|
-| **C++** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
-| **Python** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
-| **Java** | ✅ 10/10 | ✅ 12/12 | ✅ 11/11 | ✅ 11/11 | ✅ 19/19 | **94/94** |
-| **Go** | ✅ 5/10 | ✅ 8/12 | ✅ 6/11 | ✅ 3/11 | ✅ 6/19 | **28/94** |
+| **C++** | 🚧 0/10 | ✅ 3/12 | ✅ 4/11 | ✅ 1/11 | ✅ 5/19 | **18/94** |
+| **Python** | ✅ 5/10 | 🚧 0/12 | 🚧 0/11 | 🚧 0/11 | ✅ 3/19 | **8/94** |
+| **Java** | ✅ 5/10 | 🚧 0/12 | 🚧 0/11 | 🚧 0/11 | 🚧 0/19 | **5/94** |
+| **Go** | ✅ 5/10 | 🚧 0/12 | ✅ 1/11 | ✅ 2/11 | 🚧 0/19 | **12/94** |
 
 ---
 
